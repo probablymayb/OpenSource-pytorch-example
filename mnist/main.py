@@ -31,7 +31,7 @@ class Net(nn.Module):
         x = self.fc2(x)
         output = F.log_softmax(x, dim=1)
         return output
-
+#test
 
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
